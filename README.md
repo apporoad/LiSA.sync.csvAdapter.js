@@ -17,7 +17,7 @@ var adapter = require('lisa.sync.csvadapter')
 //csv序列化效率不高，采用间隔 5000
 var LiSA = LiSASync(__dirname + '/test.csv',{internal : 5000},adapter)
 
-console.log(LiSA.getSync())
+//console.log(LiSA.getSync())
 
 LiSA.set([{ name : "LiSA1" , gender : "girl"}])
 
@@ -44,6 +44,6 @@ LiSA.get().then(d=>{
 })
 
 //stop sync
-LiSA.stop()
+//LiSA.stop()
 
 ```

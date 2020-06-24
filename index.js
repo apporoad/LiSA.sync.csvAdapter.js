@@ -16,8 +16,17 @@ exports.getId= D=>{
 }
 
 exports.syncReader= (D,options)=>{
-    var content = fs.readFileSync(D,{encoding:"utf8"})
-    return parser.toJson(content,options)
+    if(!fs.existsSync(D)){
+        fs.writeFileSync(D,'')
+        return []
+    }else{
+        var content = fs.readFileSync(D,{encoding:"utf8"})
+        if(!content){
+            return []
+        }
+        return parser.toJson(content,options)
+    }
+    
 }
 exports.reader =async (D,options)=>{
     return exports.syncReader(D,options)

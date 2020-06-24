@@ -1,6 +1,6 @@
 {
   "name": "lisa.sync.csvadapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "csv adapter for sync",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,29 @@
+{
+  "name": "lisa.sync.csvadapter",
+  "version": "1.0.0",
+  "description": "csv adapter for sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apporoad/LiSA.sync.csvAdapter.js.git"
+  },
+  "keywords": [
+    "csv",
+    "adapter",
+    "sync",
+    "lisa"
+  ],
+  "author": "apporoad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apporoad/LiSA.sync.csvAdapter.js/issues"
+  },
+  "homepage": "https://github.com/apporoad/LiSA.sync.csvAdapter.js#readme",
+  "dependencies": {
+    "csv.parser.js": "^1.0.0",
+    "mkdirp": "^1.0.4"
+  }
+}

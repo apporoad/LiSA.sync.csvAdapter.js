@@ -1,7 +1,7 @@
 const fs = require('fs')
 const mkdirp = require('mkdirp')
 const path = require('path')
-const parser = require('csv.parser.js')
+const parser = require('lisa.csv.parser.js')
 
 var wr = (p,content)=>{
     fs.writeFile(p, content, { encoding:"utf8" }, function(err) {

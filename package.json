@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/apporoad/LiSA.sync.csvAdapter.js#readme",
   "dependencies": {
-    "csv.parser.js": "^1.0.0",
+    "lisa.csv.parser.js": "^1.0.0",
     "mkdirp": "^1.0.4"
   }
 }

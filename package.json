@@ -1,6 +1,6 @@
 {
   "name": "lisa.sync.csvadapter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "csv adapter for sync",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/apporoad/LiSA.sync.csvAdapter.js#readme",
   "dependencies": {
-    "lisa.csv.parser.js": "^1.0.0",
+    "lisa.csv.parser.js": "^1.0.1",
     "mkdirp": "^1.0.4"
   }
 }
